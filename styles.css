@@ -1,0 +1,122 @@
+body{
+	min-height: 100vh;
+	background: #b19dd0;
+	color: #fff;
+}
+/*header section */
+.header{
+	display: flex;
+	width: 100%;
+}
+.logo{
+	display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+.navbar{
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+    
+}
+ul{
+	list-style-type: none;
+}
+li {
+	display: inline;
+
+}
+li a{
+  padding: 8px;
+  top: 0;
+  color: #7a26c1;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+ ul  a:hover{
+	color: #419000;
+	transform: scale(1.5);
+}
+@media(min-width: 600px) and( max-width: 1000px){
+	.header{
+	display: flex;
+	width: 100%;
+}
+.logo{
+	width: 70%;
+}
+.navbar{
+	width: 30%;
+
+}
+li{
+	display: block;
+}
+}
+
+/*about section*/
+.welcome{
+	margin-top: 2px;
+}
+.welcome h1,p{
+	text-align: center;
+}
+.welcome p{
+	font-size: 1.5rem;
+}
+.welcome .name{
+	color: #7a26c1;
+	font-family: cursive;
+}
+.welcome .show{
+	font-size: 2rem;
+}
+/*my work section*/
+.projects{
+	width: 80%;
+	margin-top: 7em;
+	margin-left: 5em;
+}
+.projects h1{
+	text-align: center;
+	color: #7a26c1;
+}
+.sample-projects{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+    grid-gap: 1rem;
+    z-index: 3;
+}
+.project-image{
+	width: 10em;
+	height: 10em;
+}
+.project-image:hover{
+	color: #419000;
+transform: scale(1.5);
+
+}
+a .button{
+	text-align: center;
+}
+.socials{
+	font-family: serif;
+}
+.socials h2{
+	text-align: center;
+	color: #7a26c1;
+}
+.contact-links{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
